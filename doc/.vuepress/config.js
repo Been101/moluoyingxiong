@@ -36,5 +36,5 @@ module.exports = {
       }
     ]
   },
-  dest: 'views'
+  dest: 'docs'
 }
