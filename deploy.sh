@@ -8,19 +8,9 @@ set -e
 
 npm run build
 
-# 进入生成的文件夹
+# 进入生成的文件夹 
+git checkout --patch gh-pages pages
 
-cd pages
-
-git init
-
-git add -A
-
-git commit -m 'deploy'
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-            
 git push -f git@github.com:Been101/moluoyingxiong.git gh-pages
- 
 
 cd -
