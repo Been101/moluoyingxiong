@@ -10,7 +10,7 @@ npm run build
 
 # 进入生成的文件夹
 
-cd docs/.vuepress/dist
+cd pages
 
 git init
 
@@ -20,7 +20,7 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
             
-git push -f git@github.com:Been101/moluoyingxiong.git  main:gh-pages
+git push -f git@github.com:Been101/moluoyingxiong.git gh-pages
  
 
 cd -
