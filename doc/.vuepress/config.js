@@ -1,29 +1,27 @@
 module.exports = {
-  title: '没落英雄',
-  description: '',
+  title: "没落英雄",
+  description: "",
 
-  base: '/moluoyingxiong/',
+  base: "/",
   locales: {
-    '/': {
-      lang: 'zh-CN'
-    }
+    "/": {
+      lang: "zh-CN",
+    },
   },
-  theme: 'reco',
+  theme: "reco",
   themeConfig: {
-    type: 'blog',
-    mode: 'dark', // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
+    type: "blog",
+    mode: "dark", // 默认 auto，auto 跟随系统，dark 暗色模式，light 亮色模式
     modePicker: false,
-    author: 'Bean',
-    logo: '/avatar.jpg',
-    subSidebar: 'auto',
+    author: "Bean",
+    logo: "/avatar.jpg",
+    subSidebar: "auto",
     nav: [
       {
-        text: 'Node',
-        ariaLabel: 'Node Menu',
-        items: [
-          { text: 'Promise', link: '/node/Promise/' },
-        ]
-      }
+        text: "Node",
+        ariaLabel: "Node Menu",
+        items: [{ text: "Promise", link: "/node/Promise/" }],
+      },
     ],
     // sidebar: [
     //   {
@@ -45,5 +43,5 @@ module.exports = {
     //   }
     // ]
   },
-  dest: 'docs'
-}
+  dest: "docs",
+};
